@@ -18,7 +18,8 @@
             <ul class="mx-5">
             <li>
                 <NuxtLink to="/" class="link">Home</NuxtLink>
-                <NuxtLink to="/projects" class="link">About</NuxtLink>
+                <NuxtLink to="/projects" class="link">Projects</NuxtLink>
+                <NuxtLink to="/about" class="link">About</NuxtLink>
                 <NuxtLink to="/blog" class="link">Blog</NuxtLink>
             </li>
         </ul>

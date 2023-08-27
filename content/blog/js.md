@@ -5,3 +5,10 @@ slug: "js"
 ---
 
 Interviews can be stressful; the better prepared you are, the higher your chance of succeeding. This article shares useful tips and learning resources to help you prepare and become a better developer.
+
+
+
+```python
+print("Hello World!")
+
+```

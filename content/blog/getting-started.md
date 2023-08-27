@@ -1,7 +1,7 @@
 ---
 title: Better NextJS Imports
 description: Better NextJS Impots
-slug: "better-next-imports"
+slug: "getting-started"
 ---
 
 Nine days after first writing this post, the Next.js team

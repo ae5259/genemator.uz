@@ -1,4 +1,3 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
@@ -8,4 +7,15 @@ export default defineNuxtConfig({
   css: [
     '@/assets/css/main.css',
   ],
+  content: {
+    // https://content.nuxtjs.org/api/configuration
+    highlight: {
+      theme: {
+        // Default theme (same as single string)
+        default: 'monokai',
+        // Theme used if `html.dark`
+        dark: 'github-dark',
+      }
+    }
+  }
 })
