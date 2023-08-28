@@ -10,8 +10,7 @@ export default defineNuxtConfig({
   content: {
     highlight: {
       theme: {
-        default: 'monokai',
-        dark: 'github-dark',
+        default: 'github-dark',
       }
     }
   },
