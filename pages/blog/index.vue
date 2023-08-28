@@ -8,9 +8,10 @@ useHead({
     <Head>
         <meta name="og:description" content="This is the place where Genemator III will share his experience.">
     </Head>
+    <div class="bg-neutral-950 text-white">
     <Header></Header>
     <div class="m-10">
-        <h1 class="text-5xl text-center">Blogs</h1>
+        <h1 class="text-5xl text-center Fette-Haenel">Blogs</h1>
     </div>
 
     <div class="mx-auto  p-5 text-white w-4/6">
@@ -25,5 +26,12 @@ useHead({
         
         </ContentList>
     </div>
+</div>
     
 </template>
+
+<style>
+body {
+    background-color: #0a0a0a;
+}
+</style>
