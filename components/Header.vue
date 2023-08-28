@@ -10,7 +10,7 @@
         <meta name="og:url" content="https://genemator.uz">
         <meta name="og:image" content="https://i.imgur.com/YGgSRci.png">
     </Head>
-    <div class="bg-gray-900 text-white  w-100  p-10">
+    <div class="bg-neutral-950 text-white  w-100  p-10 Fette-Haenel">
         <div class="container flex justify-between items-center">
         <NuxtLink to="/">
             <h1 class="text-4xl mx-5">Genemator's</h1>
