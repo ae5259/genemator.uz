@@ -17,8 +17,16 @@
 <style>
 
 .prose :where(code):not(:where([class~="not-prose"] *)),
-.prose :where(a):not(:where([class~="not-prose"] *))
+.prose :where(a):not(:where([class~="not-prose"] *)),
+.prose :where(h1):not(:where([class~="not-prose"] *)),
+.prose :where(h2):not(:where([class~="not-prose"] *)),
+.prose :where(h3):not(:where([class~="not-prose"] *)),
+.prose :where(h4):not(:where([class~="not-prose"] *)),
+.prose :where(h5):not(:where([class~="not-prose"] *)),
+.prose :where(h6):not(:where([class~="not-prose"] *)),
+.prose :where(p):not(:where([class~="not-prose"] *))
 {
   color: #e5e5e5 !important;
+  font-family: JetBrains Mono;
 }
 </style>
