@@ -8,14 +8,22 @@ export default defineNuxtConfig({
     '@/assets/css/main.css',
   ],
   content: {
-    // https://content.nuxtjs.org/api/configuration
     highlight: {
       theme: {
-        // Default theme (same as single string)
         default: 'monokai',
-        // Theme used if `html.dark`
         dark: 'github-dark',
       }
     }
-  }
+  },
+  build: {
+      extractCSS: {
+        ignoreOrder: true,
+        include: [
+          /\/node_modules/,
+          /\.vue$/,
+          /\.vue\?vue&type=style/,
+          /\/_nuxt/
+        ]
+      }
+    }
 })
